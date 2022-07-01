@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>NoGluten</title>
+</head>
+
+
+<body>
+  
+  <nav class="navbarra">
+    <div class="navbarra__box">
+      <img class="navbarra__logo" src="./img/logo.png" alt="logo">
+      <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="recetas.html">Recetas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="contenedor">
+    <section class="seccion">
+
+      <h3 class="posts__title">Contacto</h3>
+
+      <aside class="aside columna">
+        <div>
+          <ul class="menu-lateral">
+            <li><a href="https://www.argentina.gob.ar/normativa/nacional/ley-27196-255225/texto">Ley celiaca en Argentina</a></li>
+            <li><a href="https://www.diainternacionalde.com/ficha/dia-internacional-celiacos">Dia internacional de la Celiaquia</a></li>
+            <li><a href="https://listadoalg.anmat.gob.ar/Home">Como identificar un alimento Sin Tacc</a></li>
+          </ul>
+          
+        </div>
+      </aside>
+
+      <div class="articulo columna">
+        <h1>Contactate con No Gluten</h1>
+        <p>Te surgio alguna duda, o tenes alguna sugerencia.Tal vez queres contarme tu experiencia de vida sin gluten, o simplemente querés contarme algo ¡Acá estoy!Dejame tus datos y un mensaje.</p>
+        <!--img src="./img/principal.jpg" alt="foto principal"-->
+        <form class="formulario">
+             <input id="nombre" class="form-input" type="text" name="nombre" placeholder="Tu nombre"/>
+             <input id="e-mail" class="form-input" type="email" name="mail" placeholder="E-mail"/>
+             <input id="telefono" class="form-input" type="number" name="telefono" placeholder="Telefono"/>
+             <input id="mensaje" class="form-input" type="text" name="mensaje" placeholder="Dejanos tu mensaje"/>             
+             Quiero recibir Informacion en mi e-mail<input class="form-check" type="checkbox" name="info" value=""/>
+            <div>
+             <button type="button" id="btnEnviar">Enviar</button>
+             <button type="button" id="btnLimpiar">Limpiar</button>
+            </div>
+
+        </form>
+      </div> 
+
+    </section>
+  </div>
+
+  <footer>
+    Copyright © 2022|NoGluten   
+  </footer>
+
+  <script src="js/validacion.js"></script>
+
+  
+
+</body>
+</html>
